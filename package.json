@@ -1,0 +1,26 @@
+{
+  "name": "fwt-node",
+  "version": "1.0.0",
+  "description": "Fastify with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "build" : "tsc -p tsconfig.json",
+    "start" : "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avik-singha/fwt-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avik-singha/fwt-node/issues"
+  },
+  "homepage": "https://github.com/avik-singha/fwt-node#readme",
+  "dependencies": {
+    "@types/node": "^18.7.18",
+    "fastify": "^4.6.0",
+    "typescript": "^4.8.3"
+  }
+}
